@@ -14,7 +14,7 @@
     "build": "tsc",
     "test": "jest",
     "test:coverage": "jest --clearCache && jest --coverage",
-    "lint": "eslint 'src/**/*.ts'",
+    "lint": "eslint",
     "build:docs": "typedoc",
     "serve:docs": "yarn build:docs && serve docs",
     "prepare": "husky install"
