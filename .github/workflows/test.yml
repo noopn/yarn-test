@@ -13,3 +13,7 @@ jobs:
           node-version: "18"
       - run: yarn --frozen-lockfile
       - run: yarn test
+      - run: yarn build
+      - run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
