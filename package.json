@@ -1,9 +1,8 @@
 {
-  "name": "monorepos-test",
-  "version": "1.0.0",
+  "name": "monoos-test",
+  "version": "1.0.1",
   "author": "sunzhiqi <sunzhiqi@live.com>",
   "license": "MIT",
-  "private": true,
   "keywords": [
     "monorepos"
   ],
