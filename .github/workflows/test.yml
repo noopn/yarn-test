@@ -1,8 +1,10 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on:
-  pull_request:
+  push:
     # Sequence of patterns matched against refs/heads
+    branches:
+      - master
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
